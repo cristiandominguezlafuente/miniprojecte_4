@@ -1,0 +1,38 @@
+* {
+  border: red solid;
+}
+
+header {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  justify-items: center;
+}
+
+main {
+  padding-right: 16px;
+  padding-left: 16px;
+  justify-items: center;
+}
+
+main button {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  border-radius: 4px;                    
+  text-align: center;
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  justify-items: center;
+}
