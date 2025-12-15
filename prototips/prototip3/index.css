@@ -1,0 +1,34 @@
+* {
+  border: red solid 1px;
+}
+
+body {
+  width: 1440px;
+  height: 1536px;
+}
+
+.fondo {
+  width: 1440px;
+  height: 1012px;
+  background-image: url(imatges/fondo.jpg);
+  background-size: cover;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  width: 637px;
+  height: 327px;
+}
+
+h1 {
+
+}
+
+p {
+
+}
+
+button {
+
+}
