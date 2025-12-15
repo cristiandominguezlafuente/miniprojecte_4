@@ -2,33 +2,9 @@
   border: red solid 1px;
 }
 
-body {
-  background-color: grey;
-}
-
-.fondo {
-  background-color: white;
-}
-
-header {
-}
-
-header h1 {
+.content{
   display: flex;
-  justify-content: center;
-}
-
-header p {
-  display: flex;
-  justify-content: center;
-}
-
-.boton {
-  display: flex;
-  justify-content: center;
-}
-
-header button {
-  background-color: #252525;
-  color: white;
+  width: 610px;
+  height: 355px;
+  flex-direction: column;
 }
