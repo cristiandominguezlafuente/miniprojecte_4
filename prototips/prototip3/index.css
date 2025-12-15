@@ -1,13 +1,12 @@
-* {
-  border: red solid 1px;
-}
-
 body {
   width: 1440px;
   height: 1536px;
 }
 
 .fondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1440px;
   height: 1012px;
   background-image: url(imatges/fondo.jpg);
@@ -17,18 +16,64 @@ body {
 .contenido {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 637px;
   height: 327px;
 }
 
 h1 {
-
+  width: 637px;
+  height: 88px;
+  margin-bottom: 15px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 96px;
+  color: #ffffff;
 }
 
 p {
-
+  width: 549px;
+  height: 93px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 26px;
+  color: #ffffff;
 }
 
 button {
+  display: flex;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  width: 175px;
+  height: 66px;
+  border-radius: 36px;
+  padding: 24px 48px 24px 48px;
+}
 
+.fila-imagenes {
+  display: flex;
+  width: 1240px;
+  height: 524px;
+}
+
+.background1 {
+  background-image: url(imatges/chico1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.background2 {
+  background-image: url(imatges/chico2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.background3 {
+  background-image: url(imatges/chico3.jpg);
+  background-size: cover;
+  background-position: center;
 }
