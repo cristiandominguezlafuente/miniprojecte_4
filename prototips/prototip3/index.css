@@ -11,6 +11,7 @@ body {
   height: 1012px;
   background-image: url(imatges/fondo.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .contenido {
@@ -19,6 +20,7 @@ body {
   align-items: center;
   width: 637px;
   height: 327px;
+  margin-bottom: 150px;
 }
 
 h1 {
