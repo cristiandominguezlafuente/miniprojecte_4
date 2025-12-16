@@ -1,6 +1,7 @@
 body {
   width: 1440px;
   height: 1536px;
+  margin: 60px;
 }
 
 .fondo {
@@ -54,26 +55,65 @@ button {
   padding: 24px 48px 24px 48px;
 }
 
-.fila-imagenes {
+.fila {
   display: flex;
-  width: 1240px;
+  width: 1440px;
   height: 524px;
 }
 
-.background1 {
+.columna1 {
+  width: 480px;
+  height: 524px;
   background-image: url(imatges/chico1.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.background2 {
+.columna2 {
+  width: 480px;
+  height: 524px;
   background-image: url(imatges/chico2.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.background3 {
+.columna3 {
+  width: 480px;
+  height: 524px;
   background-image: url(imatges/chico3.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.informacion {
+  border: red solid 1px;
+  width: 320px;
+  height: 125px;
+  top: 350px;
+  padding-top: 350px;
+  padding-right: 96px;
+  padding-bottom: 46px;
+  padding-left: 64px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.informacion h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  color: #ffffffcc;
+  text-align: left;
+  width: 316px;
+  height: 38px;
+}
+
+.informacion p {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  width: 316px;
+  height: 58px;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 24px;
+  margin-top: -10px;
 }
