@@ -1,7 +1,6 @@
 body {
-  width: 1440px;
-  height: 1536px;
-  margin: 60px;
+  display: flex;
+  justify-content: center;
 }
 
 .fondo {
@@ -57,13 +56,11 @@ button {
 
 .fila {
   display: flex;
-  width: 1440px;
-  height: 524px;
 }
 
 .columna1 {
   width: 480px;
-  height: 524px;
+  height: 520px;
   background-image: url(imatges/chico1.jpg);
   background-size: cover;
   background-position: center;
@@ -71,7 +68,7 @@ button {
 
 .columna2 {
   width: 480px;
-  height: 524px;
+  height: 520px;
   background-image: url(imatges/chico2.jpg);
   background-size: cover;
   background-position: center;
@@ -79,14 +76,13 @@ button {
 
 .columna3 {
   width: 480px;
-  height: 524px;
+  height: 520px;
   background-image: url(imatges/chico3.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .informacion {
-  border: red solid 1px;
   width: 320px;
   height: 125px;
   top: 350px;
