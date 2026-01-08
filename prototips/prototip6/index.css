@@ -1,0 +1,102 @@
+.pagina {
+  width: 1440px;
+  height: 1024px;
+  background-color: #0d0f1b;
+  position: relative;
+  overflow: hidden;
+}
+
+.recuadro {
+  position: relative;
+  width: 684px;
+  height: 454px;
+  padding-top: 100px;
+  padding-left: 65px;
+}
+
+.recuadro h1 {
+  color: white;
+  width: 684px;
+  height: 212px;
+  font-family: Lato;
+  font-weight: 900px;
+  font-size: 88px;
+  letter-spacing: 0%;
+}
+
+.recuadro p {
+  color: white;
+  width: 568px;
+  height: 128px;
+  font-family: Lato;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: -30px;
+}
+
+.recuadro button {
+  background-color: white;
+  width: 216px;
+  height: 66px;
+  border-radius: 16px;
+  font-family: Lato;
+  font-size: 24px;
+}
+
+.recuadro-info {
+  display: flex;
+  position: relative;
+  width: 1284px;
+  height: 232px;
+  gap: 24px;
+  padding-top: 170px;
+  padding-left: 64px;
+}
+
+.info {
+  color: white;
+  width: 412px;
+  height: 232px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0.125) 68.53%
+  );
+  backdrop-filter: blur(32px);
+}
+
+.info h1 {
+  width: 38px;
+  height: 32px;
+  font-family: Lato;
+  font-weight: 900px;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+.info p {
+  padding-left: 60px;
+  padding-top: 0px;
+  font-family: Lato;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.fondo {
+  position: absolute;
+  top: -72px;
+  left: 59px;
+  width: 1640px;
+  height: 1024px;
+}
+
+.fondo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scaleX(-1);
+}
