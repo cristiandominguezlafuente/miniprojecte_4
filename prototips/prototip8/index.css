@@ -4,6 +4,7 @@ body {
 }
 
 .pagina {
+  position: relative;
   background-color: white;
   width: 1440px;
   height: 1345px;
@@ -41,6 +42,41 @@ body {
   border-radius: 36px;
   font-family: Avenir;
   font-size: 24px;
+}
+
+.barra {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  background-color: #ecdac4;
+  width: 878px;
+  height: 188px;
+  margin-top: 5%;
+  margin-left: 281px;
+  border-radius: 80px;
+}
+
+.recuadro-info {
+  display: flex;
+  justify-content: space-between;
+  width: 686px;
+  height: 140px;
+  margin-top: 24px;
+}
+
+.frames {
+  width: 170px;
+  height: 140px;
+}
+
+.frames img {
+  width: 36px;
+  height: 36px;
+}
+
+.frames h1 {
+  width: 74px;
+  height: 48px;
 }
 
 .recuadros-cafe {
