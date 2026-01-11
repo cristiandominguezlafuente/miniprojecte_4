@@ -69,14 +69,37 @@ body {
   height: 140px;
 }
 
+.frames .recuadroimg {
+  display: flex;
+  justify-content: center;
+}
+
 .frames img {
   width: 36px;
   height: 36px;
 }
 
 .frames h1 {
-  width: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
   height: 48px;
+  margin-top: 5px;
+  font-family: Poppins;
+  font-weight: 600px;
+  font-size: 32px;
+}
+
+.frames p {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  margin-top: -20px;
+  font-family: Poppins;
+  font-weight: 400px;
+  font-size: 16px;
 }
 
 .recuadros-cafe {
