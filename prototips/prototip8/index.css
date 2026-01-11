@@ -173,9 +173,8 @@ body {
   width: 440px;
   height: 440px;
   border-radius: 50%;
-  overflow: hidden; /* importante para recortar la imagen */
+  overflow: hidden;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -184,7 +183,6 @@ body {
   height: 160%;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center;
 }
 
 .recuadro-cafe-2 {
@@ -196,7 +194,6 @@ body {
   border-radius: 50%;
   overflow: hidden;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -205,5 +202,4 @@ body {
   height: 200%;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center;
 }
