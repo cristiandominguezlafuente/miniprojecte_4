@@ -1,10 +1,7 @@
-*{
-  border: red solid 1px;
-}
-
 body {
   display: flex;
   justify-content: center;
+  background-color: grey;
 }
 
 .pagina {
@@ -173,13 +170,19 @@ body {
   position: absolute;
   width: 440px;
   height: 440px;
+  border-radius: 50%;
+  overflow: hidden; /* importante para recortar la imagen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .recuadro-cafe-1 img {
   width: 100%;
-  height: 100%;
+  height: 160%;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center;
 }
 
 .recuadro-cafe-2 {
@@ -188,11 +191,17 @@ body {
   height: 312px;
   margin-left: 280px;
   margin-top: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .recuadro-cafe-2 img {
   width: 100%;
-  height: 100%;
+  height: 200%;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center;
 }
