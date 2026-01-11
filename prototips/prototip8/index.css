@@ -38,11 +38,13 @@ body {
 .contenido button {
   background-color: #a36a4f;
   color: white;
+  border: none;
   width: 179px;
   height: 66px;
   border-radius: 36px;
   font-family: Avenir;
   font-size: 24px;
+  margin-top: 10px;
 }
 
 .barra {
