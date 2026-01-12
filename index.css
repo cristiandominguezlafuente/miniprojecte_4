@@ -24,26 +24,22 @@ body {
   opacity: 0.8;
 }
 
-/* Contenedor */
 .contenedor {
   max-width: 1000px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
-/* Introducción */
 .introduccion {
   margin-bottom: 2rem;
 }
 
-/* Prototipos */
 .prototipos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.5rem;
 }
 
-/* Tarjeta */
 .tarjeta {
   background-color: white;
   border-radius: 10px;
@@ -73,12 +69,10 @@ body {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Quitar colores verdes de links */
 .tarjeta:visited {
   color: #1e293b;
 }
 
-/* Pie */
 .pie {
   text-align: center;
   padding: 1.5rem;
