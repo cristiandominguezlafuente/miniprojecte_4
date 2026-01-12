@@ -1,6 +1,13 @@
 body {
-  margin: 60px;
+  display: flex;
   justify-content: center;
+  background-color: #e5e5e5;
+}
+
+.pagina {
+  width: 1440px;
+  height: 1139px;
+  background-color: #ffffff;
 }
 
 .contenido {
