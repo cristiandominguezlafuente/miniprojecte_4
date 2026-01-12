@@ -84,7 +84,7 @@ main {
   border: 1px solid #ddd;
 }
 
-.gallery-item h3 {
+.gallery-item h2 {
   margin-top: 8px;
   font-size: 16px;
 }
