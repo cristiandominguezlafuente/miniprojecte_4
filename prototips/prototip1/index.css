@@ -1,22 +1,38 @@
 body {
-  margin-left: 60px;
-  margin-right: 60px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  font-family: "Avenir", sans-serif;
+}
+
+.pagina {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: 954px;
+  background-color: #ffffff;
+}
+
+.conjunto {
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 h1 {
-  font-family: "Avenir", sans-serif;
   width: 531px;
   height: 208px;
   font-size: 88px;
   line-height: 104px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .fila {
   display: flex;
   gap: 60px;
-  width: 80%;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -24,28 +40,26 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: auto;
 }
 
 .numero {
-  font-family: "Avenir", sans-serif;
   width: 38px;
   height: 44px;
   font-size: 32px;
   color: #2525258c;
-  margin-top: 0px;
-  margin-bottom: -20px;
+  margin: 0 0 -20px 0;
   font-weight: 600;
 }
 
 .parrafo {
-  font-family: "Avenir", sans-serif;
-  font-weight: 400px;
   font-size: 24px;
+  font-weight: 400;
   color: #252525cc;
+  margin-bottom: 30px;
 }
 
 img {
   width: 400px;
   height: 345px;
+  object-fit: cover;
 }
